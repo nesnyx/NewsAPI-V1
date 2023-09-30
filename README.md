@@ -3,19 +3,23 @@ This project is a simple news application that uses FastAPI and Bootstrap to dis
 
 ## Installation
 To install the project, you will need to have Python 3 and pip installed. Once you have those installed, you can install the project dependencies by running the following command:
-
+'''bash
 <b>pip install -r requirements.txt</b>
+'''
+
 
 Or can activate a env already created the following command:
-
+'''bash
 <b>python venv/Scripts/activate</b>
+'''
 
 ## Usage
 
 To run the project, you can start the FastAPI server by running the following command:
 
+'''bash
 <b>uvicorn main:app --reload</b>
-
+'''
 This will start the server on port 8000. You can then access the application at http://localhost:8000.
 
 Dont Forget to Get Your Own API KEY at <b>https://newsapi.org/</b>
